@@ -14,21 +14,22 @@
 //   }
 // });
 
-
-// validation form register and register user local storage
+//validation form register and register user local storage
 const inputUsernameRegister = document.querySelector(".input-signup-username");
 const inputPasswordRegister = document.querySelector(".input-signup-password");
 const btnRegister = document.querySelector(".signup__signInButton");
-
+const mauKT = /^\d{10}$/;
 // validation form register and register user local storage
 
 btnRegister.addEventListener("click", (e) => {
   e.preventDefault();
   if (
-    inputUsernameRegister.value === "" ||
-    inputPasswordRegister.value === ""
+    inputUsernameRegister.value === "" || 
+    inputPasswordRegister.value === "" ||
+    !mauKT.test(inputUsernameRegister.value)
+    
   ) {
-    alert("vui lòng không để trống");
+    alert("vui lòng không để trống, nhập 10 chữ số");
   } else {
     // array user
     const user = {
@@ -41,3 +42,6 @@ btnRegister.addEventListener("click", (e) => {
     window.location.href = "dangnhap.html";
   }
 });
+
+
+
