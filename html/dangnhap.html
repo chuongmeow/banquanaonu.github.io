@@ -76,19 +76,40 @@
             </div>
             
         </nav>
+        
         <article class="content" >
             <div class="container">
-                <div class="login" id="loginForm">
-                    <h1>Đăng nhập</h1>
-                    <div>
-                        <input type="text" placeholder="Email">
+                <!-- <div class="login">
+                    <div class="login__container">
+                        <div  id="loginForm">
+                        <h1>Đăng nhập</h1>
+                        <div>
+                            <input type="text" placeholder="Email" class="input-login-username">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Mật khẩu" class="input-login-password">
+                        </div>
+                        <button>Đăng nhập</button>
+                        <p><span><a href="../html/quenmatkhau.html">Quên mật khẩu?</a></span> hoặc <span><a href="../html/taotaikhoan.html">Đăng ký.</a></span></p>
+                        </div>
                     </div>
-                    <div>
-                        <input type="text" placeholder="Mật khẩu">
+                </div> -->
+                <div class="login">
+                    <div class="login__container">
+                      <h1>Đăng Nhập</h1>
+                      <form>
+                        <h5>Email</h5>
+                        <input type="text" class="input-login-username" />
+                        <h5>Password</h5>
+                        <input type="password" class="input-login-password" />
+                        <button type="submit" class="login__signInButton">Đăng Nhập</button>
+                      </form>
+                      <a href="../html/taotaikhoan.html" class="login__registerButton"
+                        >Đăng ký</a
+                      >
                     </div>
-                    <button>Đăng nhập</button>
-                    <p><span><a href="../html/quenmatkhau.html">Quên mật khẩu?</a></span> hoặc <span><a href="../html/taotaikhoan.html">Đăng ký.</a></span></p>
-                </div>
+                  </div>
+                
             </div>
         </article>
 
@@ -215,4 +236,5 @@
             </div>
         </footer>
 </body>
+<script src="../js/dangnhap.js"></script>
 </html>
