@@ -303,23 +303,21 @@ img{
   
   margin-left: 900px;
   margin-top: -1380px;
+  border-left: 5px solid rgb(0, 0, 0);
+
   
-  
-  
-  
-  
+}
+.cart .listCart{
+  margin-left: 30px;
 }
 
 
-.listCart{
-  margin-left: 45px;
-}
 
 .cart h1{
-  
+  color: rgb(19, 110, 46);
   font-weight: bold;
   font-size: 25px;
-  margin-left: 150px;
+  margin-left: 130px;
   
   
 }
@@ -350,12 +348,14 @@ img{
 .container{
   width:  70%;
   display: grid;
+ 
   
 }
+
 .content .container{
   display:inline-flex;
   flex-wrap:wrap;
-  background-color: #5a5259;
+  background-color: #cfc6ce;
   
 }
 
