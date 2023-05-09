@@ -14,7 +14,7 @@ btnRegister.addEventListener("click", (e) => {
     !mauKT.test(inputUsernameRegister.value)||
     inputPasswordRegister.value.length < 8
   ) {
-    alert("vui lòng không để trống username, nhập 10 chữ số hoặc password ít nhất 8 kí tự");
+    alert("vui lòng không để trống số điện thoại, nhập 10 chữ số hoặc password ít nhất 8 kí tự");
     
   } else {
     // array user
