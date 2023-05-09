@@ -73,7 +73,7 @@
             <div class="menu-icon">
                 <li><a href="./html/dangnhap.html"><i class="fa-solid fa-user"; style="font-size: 25px; color: black;"></i></a></li>
                 <li><a href="Tìm kiếm"><i class="fa-solid fa-magnifying-glass"; style="font-size: 25px; color: black;"></i></a></li>
-                <li><a href="Giỏ hàng"><i class="fa fa-bag-shopping"; style="font-size: 25px; color: black;"></i></a></li>
+                <li><a href="./html/quenmatkhau.html"><i class="fa fa-bag-shopping"; style="font-size: 25px; color: black;"></i></a></li>
             </div>
             
         </nav>
@@ -88,87 +88,108 @@
         <article class="content">
             <h1>Sản Phẩm Bán Chạy Nhất</h1>
             <div class="container">
-                
+           
                 <div class="content-products">
-                    <div class="img-product"><a href="./html/chitietsanpham1.html"><img src="./IMG/sp1.png" alt=""></a></div>
-                    <div class="content-products-details">
-                        <p style="font-size: 18px;"><a href="../html/chitietsanpham1.html">Váy mini ren cổ vuông</a></p>
-                        <p>549,000 vnđ<span><a href="./html/chitietsanpham1.html"><i class="fa fa-cart-shopping"></i></a></span></p>
-                        
+                    <div class="list">
+                        <div class="item" data-key="1">
+                                <div class="img-product"><a href="./html/chitietsanpham1.html"><img src="./IMG/sp1.png" alt=""></a></div>
+                                <div class="content-products-details">
+                                    <p style="font-size: 18px;"><a href="./html/chitietsanpham1.html">Váy mini ren cổ vuông</a></p>
+                                    <p>549,000 vnđ<span></span></p>
+                                    <input type="number" class="count" min="1" value="1">
+                        <button class="add">Thêm vào giỏ hàng</button>
+                        <button class="remove" onclick="Remove(1)"><i class="fa-solid fa-trash-can"></i></button>
+                                </div>
+                        </div>
+                                
+                    </div>
+
+                    
+
+                    
+                </div>
+                <div class="content-products">
+                    <div class="list">
+                        <div class="item" data-key="2">
+                                <div class="img-product"><a href="./html/chitietsanpham1.html"><img src="./IMG/sp2.png" alt=""></a></div>
+                                <div class="content-products-details">
+                                    <p style="font-size: 18px;"><a href="./html/chitietsanpham1.html">Váy mini ren cổ vuông</a></p>
+                                    <p>549,000 vnđ<span></span></p>
+                                    <input type="number" class="count" min="1" value="1">
+                        <button class="add">Thêm vào giỏ hàng</button>
+                        <button class="remove" onclick="Remove(2)"><i class="fa-solid fa-trash-can"></i></button>
+                                </div>
+                        </div>
+                                
                     </div>
                 </div>
                 <div class="content-products">
-                    <div class="img-product"><a href="./html/chitietsanpham2.html"><img src="./IMG/sp2.png" alt=""></a></div>
-                    <div class="content-products-details">
-                        <p style="font-size: 18px;"><a href="../html/chitietsanpham2.html">Váy thiết kế đính khuy ngọc</a></p>
-                        <p>549,000 vnđ<span><a href="./html/chitietsanpham2.html"><i class="fa fa-cart-shopping"></i></a></span></p>
+                    <div class="list">
+                        <div class="item" data-key="3">
+                                <div class="img-product"><a href="./html/chitietsanpham1.html"><img src="./IMG/sp3.png" alt=""></a></div>
+                                <div class="content-products-details">
+                                    <p style="font-size: 18px;"><a href="./html/chitietsanpham1.html">Váy mini ren cổ vuông</a></p>
+                                    <p>549,000 vnđ<span></span></p>
+                                    <input type="number" class="count" min="1" value="1">
+                        <button class="add">Thêm vào giỏ hàng</button>
+                        <button class="remove" onclick="Remove(3)"><i class="fa-solid fa-trash-can"></i></button>
+                                </div>
+                        </div>
+                                
                     </div>
                 </div>
                 <div class="content-products">
-                    <div class="img-product"><a href="./html/chitietsanpham3.html"><img src="./IMG/sp3.png" alt=""></a></div>
-                    <div class="content-products-details">
-                        <p style="font-size: 18px;"><a href="../html/chitietsanpham3.html">Váy mini thiết kế dập hoa nổi</a></p>
-                        <p>549,000 vnđ<span><a href="./html/chitietsanpham3.html"><i class="fa fa-cart-shopping"></i></a></span></p>
+                    <div class="list">
+                        <div class="item" data-key="4">
+                                <div class="img-product"><a href="./html/chitietsanpham1.html"><img src="./IMG/sp4.png" alt=""></a></div>
+                                <div class="content-products-details">
+                                    <p style="font-size: 18px;"><a href="./html/chitietsanpham1.html">Váy mini ren cổ vuông</a></p>
+                                    <p>549,000 vnđ<span></span></p>
+                                    <input type="number" class="count" min="1" value="1">
+                        <button class="add">Thêm vào giỏ hàng</button>
+                        <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                                </div>
+                        </div>
+                                
                     </div>
                 </div>
                 <div class="content-products">
-                    <div class="img-product"><a href="./html/chitietsanpham4.html"><img src="./IMG/sp4.png" alt=""></a></div>
-                    <div class="content-products-details">
-                        <p style="font-size: 18px;"><a href="../html/chitietsanpham4.html">Váy mini cổ tàu cut - out</a></p>
-                        <p>549,000 vnđ<span><a href="./html/chitietsanpham4.html"><i class="fa fa-cart-shopping"></i></a></span></p>
+                    <div class="list">
+                        <div class="item" data-key="5">
+                                <div class="img-product"><a href="./html/chitietsanpham1.html"><img src="./IMG/sp5.png" alt=""></a></div>
+                                <div class="content-products-details">
+                                    <p style="font-size: 18px;"><a href="./html/chitietsanpham1.html">Váy mini ren cổ vuông</a></p>
+                                    <p>549,000 vnđ<span></span></p>
+                                    <input type="number" class="count" min="1" value="1">
+                        <button class="add">Thêm vào giỏ hàng</button>
+                        <button class="remove" onclick="Remove(5)"><i class="fa-solid fa-trash-can"></i></button>
+                                </div>
+                        </div>
+                                
                     </div>
                 </div>
-                <div class="content-products">
-                    <div class="img-product"><a href="./html/chitietsanpham5.html"><img src="./IMG/sp5.png" alt=""></a></div>
-                    <div class="content-products-details">
-                        <p style="font-size: 18px;"><a href="../html/chitietsanpham5.html">Váy mini cổ vest</a></p>
-                        <p>599,000 vnđ<span><a href="./html/chitietsanpham5.html"><i class="fa fa-cart-shopping"></i></a></span></p>
-                    </div>
-                </div>
-                <div class="content-products">
-                    <div class="img-product"><a href="./html/chitietsanpham6.html"><img src="./IMG/sp6.png" alt=""></a></div>
-                    <div class="content-products-details">
-                        <p style="font-size: 18px;"><a href="../html/chitietsanpham6.html">Váy mini tafta trễ vai</a></p>
-                        <p>599,000 vnđ<span><a href="./html/chitietsanpham6.html"><i class="fa fa-cart-shopping"></i></a></span></p>
-                    </div>
-                </div>
-                <div class="content-products">
-                    <div class="img-product"><a href="./html/chitietsanpham7.html"><img src="./IMG/sp7.png" alt=""></a></div>
-                    <div class="content-products-details">
-                        <p style="font-size: 18px;"><a href="../html/chitietsanpham7.html">Áo croptop hoa cổ bẻ</a></p>
-                        <p>399,000 vnđ<span><a href="./html/chitietsanpham7.html"><i class="fa fa-cart-shopping"></i></a></span></p>
-                    </div>
-                </div>
-                
-                <div class="content-products">
-                    <div class="img-product"><a href="./html/chitietsanpham9.html"><img src="./IMG/sp9.png" alt=""></a></div>
-                    <div class="content-products-details">
-                        <p style="font-size: 18px;"><a href="../html/chitietsanpham9.html">Áo cổ bèo đan dây</a></p>
-                        <p>449,000 vnđ<span><a href="./html/chitietsanpham9.html"><i class="fa fa-cart-shopping"></i></a></span></p>
-                    </div>
-                </div>
-                <div class="content-products">
-                    <div class="img-product"><a href="./html/chitietsanpham10.html"><img src="./IMG/sp10.png" alt=""></a></div>
-                    <div class="content-products-details">
-                        <p style="font-size: 18px;"><a href="../html/chitietsanpham10.html">Quần short thiết kế ống rộng</a></p>
-                        <p>349,000 vnđ<span><a href="./html/chitietsanpham10.html"><i class="fa fa-cart-shopping"></i></a></span></p>
-                    </div>
-                </div>
-                <div class="content-products">
-                    <div class="img-product"><a href="./html/chitietsanpham11.html"><img src="./IMG/sp11.png" alt=""></a></div>
-                    <div class="content-products-details">
-                        <p style="font-size: 18px;"><a href="../html/chitietsanpham11.html">Áo thiết kế lệch vai</a></p>
-                        <p>499,000 vnđ<span><a href="./html/chitietsanpham11.html"><i class="fa fa-cart-shopping"></i></a></span></p>
-                    </div>
-                </div>
+                <!-- 
                 <div class="content-products">
                     <div class="img-product"><a href="./html/chitietsanpham12.html"><img src="./IMG/sp12.png" alt=""></a></div>
                     <div class="content-products-details">
                         <p style="font-size: 18px;"><a href="../html/chitietsanpham12.html">Áo sơ mi oversize trắng</a></p>
                         <p>399,000 vnđ<span><a href="./html/chitietsanpham12.html"><i class="fa fa-cart-shopping"></i></a></span></p>
                     </div>
+                </div> -->
+
+
+                
+                <div class="cart">
+                    <h1>Cart</h1>
+                    
+                    <div class="listCart">
+        
+                    </div>
                 </div>
+
             </div>
+
+            
         </article>
 
         <div class="section-support">
@@ -208,7 +229,7 @@
                 </div>
             </div>
         </div>
-        <div class="support-floating">
+        <!-- <div class="support-floating">
             <div class="support-box">
                 <div class="sup">
                     <a href=""><i class="fa-solid fa-phone-volume" style="color:rgb(42, 190, 74)"></i>
@@ -227,7 +248,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
     <footer>
         <div class="main-footer">
             <div class="container">
@@ -317,4 +338,5 @@
             } }
     </script>
 </body>
+<script src="./js/giohang.js"></script>
 </html>

@@ -15,6 +15,7 @@ btnRegister.addEventListener("click", (e) => {
     
   ) {
     alert("vui lòng không để trống, nhập 10 chữ số");
+    
   } else {
     // array user
     const user = {
